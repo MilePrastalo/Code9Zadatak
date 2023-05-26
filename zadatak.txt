@@ -1,0 +1,21 @@
+1. Kreirati pocetni ekran. Ekran treba da sadrzi logo, polje za unos username-a i password-a. Dugme za sign in i dugme za registraciju
+2. Username mora da ima vise od 3 karaktera, a lozinka vise od 8 karaktera.
+3. Klikom na sign in, ako su ispunjeni uslovi is tacke 2 korisnik se smatra ulogovanim i vodi se na pocetni ekran za ulogovane korisnike.
+4. Ako korisnik izabere da klikne na register, vodi se na stranicu za registraciju gde treba da unese sledeca polja
+    Ime (min 2 karaktera), Prezime(min 2 karaktera), Username, Password. Ekran za registraciju takodje treba da ima i dugme za registraciju.
+    Kada se to dugme pritisne, korisnik se smatra ulogovanim.
+    Ekran za registraciju treba da moze da se skloni prevlacenjem od gore ka dole.
+    Nakon uspesne registracije korisnik je ulogovan.
+5. Ukoliko uslovi za sign in ili registraciju nisu ispunjeni potrebno je prikazati crveni pravugaonik iznad polja koje nije dobro popunjeno sa porukom za korisnika.
+6. Ekran za prijavljene korisnike se sastoji od Tab Bar-a (Koristiti UITabBarController).
+7. Prvi ekran je ekran dobrodoslice. Na njemu se nalazi Tekst "Wellcome" ispod njega je potrebno prikazati username korisnika.
+8. Drugi ekran je lista drzava. Potrebno je koristiti UITableViewController. Za stil celije preporuka je da se izabere "Right detail", ali studenti imaju slobodu za proizvoljan izgled celije
+    Klasa Country se sastoji od atributa "Name" i "Code". Instancirati 5 instanci klase Country i njih prikazati na listi.
+9. Ucitati "countries.json" i prikazati gradove na listi
+10. Na settings ekranu prikazati switch i labelu. Na labeli treba da pise "Activate dark mode". Ako se switch aktivira, potrebno je izmeniti pozadinu na svim ekranima.
+    (Hint: UserDefaults)
+
+Dodatno:
+1. Napraviti da logo na pocetnom ekranu bude okrugao - koristiti istu sliku kao i ranije.
+2. Naziv drzave treba da bude boldovan
+3. Na ekranu sa Wellcome porukom dodati proizvoljan pasus. Minimum 2 reda teksta.
